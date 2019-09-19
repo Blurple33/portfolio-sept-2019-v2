@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ultra Mix</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Playfair+Display:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/hover-min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container">
+	<!-- Navbar.v1 start-->
+	<!-- <nav class="navbar navbar-fixed-top">
+		<div class="container">	
+			<div class="col col-md-6">					
+				<ul class="nav navbar-nav raleway-text">
+					<li class="active"><a href="#home">Home</a></li>
+					<li><a href="#work">Featured Work</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		<div class="col col-md-6"></div>	
+		</div>
+	</nav> -->
+	<!-- Navbar.v1 end -->
+	<!-- Navbar.v2 start-->
+	<nav class="navbar navbar-default navbar-fixed-top raleway-text"> 
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right text-center pull-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#work">Featured Work</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+	<!-- Navbar.v2 end // .v2 working well -->
+	<!-- About me start -->
+	<div id="home" class="row">
+		<div class="container">
+			<div class="col col-md-6 col-sm-12 going-down tsq">
+				<img src="img/jumbo.jpg" alt="square" class="tsq hvr-wobble-vertical">
+			</div>
+			<div class="col col-md-1 col-sm-0"></div>
+			<div class="col col-md-5 col-sm-12 going-down2 raleway-text">
+				<h1 class="">Hi, I'm <a href="#" class="text-purple hvr-buzz">Leo</a>.</h1>
+				<h3 class="">This is my portfolio site!</h3>
+				<p class="text-justify">I'm an aspiring graphic designer from Fresno, CA, with interests in everything pretty.  From full paintings to sculptures to letters and logos, everything can be enticing in their own way.  With a will to learn and a drive to problem solve, I'm definitely the one for the job.  If a problem needs a solution, let's work together to find the best one!</p>
+				<p class="text-justify">OH! And this is my dog,</p>
+				<!-- hidden click works, but not used -->
+				<!-- <p> Click <span class = "hiddenclick" onclick = "toggleImage()">here</span> to show image.<br>
+					<span class="hiddenclickimg"><img src = "https://s-media-cache-ak0.pinimg.com/originals/22/74/8c/22748c9b9cc2c039aed206cab0247404.gif"/></span>
+					</p> -->
+				<!-- button failed / needs work -->
+				<!-- <button class="btn">
+					<a  href="#two" class="accordion-toggle" data-toggle="collapse" data-trigger="hover" data-parent="#submenu">this is Heinz</a>
+				</button>	 
+				<div id="two" class="collapse">
+					<div class="accordion-inner">
+						<img src="https://unsplash.it/250/250" alt="Pet Store" class="img-circle">
+				  	</div>
+				</div> -->
+				<!-- test start: accordion -->
+				<!-- <div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+						  		Heinzworth Woofenshmirtz Wigglebottom</a>
+							</h4>
+						</div>
+						<div id="collapse1" class="panel-collapse collapse in">
+							<div class="panel-body">
+								<img src="https://unsplash.it/250/250" alt="Pet Store" class="img-circle img-responsive">
+							</div>
+						</div>
+					</div>
+				</div> -->
+				<!-- test end -->
+				<!-- test start: accordion v2 -->
+				<button class="accordion">Heinzworth Woofenshmirtz Wigglebottom.</button>
+				<div class="panel">
+					<a href="#">
+						<img src="/img/heinz.jpg" alt="pet store" class="img-responsive">
+					</a>
+				</div>
+				<!-- test end: accordion v2 -->
+			</div>
+		</div>
+	</div>
+	<!-- About me end -->
+	<!-- Featured Work Starts -->
+	<div class="container work">
+		<div class="row">
+			<div id="work" class="col-md-12 work-left">
+				<h2 class="raleway-text fcc text-bold">Featured Work</h2>
+			</div>
+			<div class="col-md-12 work-right">
+				<div class="row first-work-row">
+					<div class="col-md-2 hidden-xs"></div>
+					<div class="col-md-4 col-xs-12 raleway-text text-right first-work">
+						<br>
+						<h3><a href="#" class="hvr-buzz-out">Pet Store</a></h3>
+						<p>HTML and CSS </p>
+						<p>Here's a mock-up of a fictional Pet Store to demostrate some capabilities of HTML and CSS.  This is only a glimpse of what I'm capable of.  Imagine what can be accomplished with more time!</p>
+					</div>	
+					<div class="col-md-6 work-1">
+						<a href="#">
+							<img src="/img/petstore2.jpg" alt="pet store" class="hvr-wobble-horizontal img-circle img-responsive">
+						</a>
+					</div>
+				</div>
+				<div class="row sec-work-row">
+					<div class="col-md-6 work-1">
+						<a href="https://blurple33.github.io/restaurante/">
+							<img src="/img/restaurant-2.jpg" alt="restaurant" class="hvr-wobble-vertical img-circle img-responsive pull-right pull-left-xs">
+						</a>
+					</div>
+						<div class="col-md-4 col-xs-12 raleway-text first-work">
+							<br>
+							<h3><a href="https://blurple33.github.io/restaurante/" class="hvr-buzz-out">Restaurant</a></h3>
+							<p>HTML and CSS.</p>
+							<p>Fresno's a great testing ground for food!  There's so many flavors to taste and even more to come.  While this is only a fictional storefront, more is always on the way in our city!</p>
+						</div>	
+					<div class="col-md-2 hidden-xs"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Featured Work Ends -->
+	<!-- Contact Starts -->
+	<div class="container">
+		<div class="row contact">
+			<div id="contact" class="col-md-12">
+				<h2 class="raleway-text text-center text-bold">Have an idea? <br> 
+					<a href="#" class="text-purple hvr-pulse">Let's Chat!</a></h2> 
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-centered social">
+				<div class="col-xs-12 contact-1 fcc">
+					<ul class="list-inline text-center raleway-text ">
+						<li><p class="hvr-pulse"><a href="#"><i class="fa fa-camera" aria-hidden="true"></i>  Instagram</a></p></li>
+						<li><p class="hvr-pulse"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>  Twitter</a></p></li>
+						<li><p class="hvr-pulse"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>  Facebook</a></p></li>
+						<li><p class="hvr-pulse"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>  Linked In</a></p></li>					
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Contact Ends -->
+</div>
+	<!-- javascript	 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"> </script>
+</body>
+</html>
+

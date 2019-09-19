@@ -1,0 +1,322 @@
+/*====Fonts====*/
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+/*====Universal====*/
+.lobster-text {
+  font-family: 'Lobster', cursive;
+}
+
+.raleway-text{
+  font-family: 'Raleway', sans-serif;
+}
+
+.text-purple{
+    /* color: #5e348d; */
+    color: #7c4fab
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #7c4fab
+}
+
+/* navbar */
+.nav{
+    font-size: 15px;
+    font-weight: 600;
+    background-color: white;
+}
+
+nav a{
+    color: black;
+}
+
+/* navbar test v2 */
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+  
+.navbar-nav {
+    margin: 0px -15px;
+}
+  
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #7c4fab;
+    background-color: rgba(0, 0, 0, .2);
+}
+  
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,  {
+    color: #7c4fab;
+    background-color: rgba(0, 0, 0, .5);
+}
+  
+.navbar-header {
+    background-color: transparent;
+}
+  
+.navbar-collapse {
+    border: none;
+  
+}
+  
+  
+.navbar-toggle {
+    background-color: lightgrey;
+}
+  
+/* navbar v2 test (works ok) end */
+
+
+/* about me */
+.going-down{
+    margin-top: 10em;
+}
+
+.going-down2{
+    margin-top: 13em;
+}
+
+
+.tsq{
+    height: 400px;
+    width: 400px; 
+    
+}
+
+.hvr-buzz{
+    vertical-align: baseline; 
+}
+
+/* test start: accordion v2 */
+
+.accordion {
+    background-color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
+    font-size: 15px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ffffff;
+    color: #7c4fab
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #7c4fab;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+/* test end: accordion v2 */
+
+/* featured work */
+
+.fcc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-1{
+
+}
+
+.work {
+    width: 100%;
+    padding-top: 3em; 
+}
+  
+.work-left{
+    padding-bottom: 1em;
+    font-size: 50px;
+}
+
+.work-right{
+    height: 500px;
+}
+  
+/* .work-1-img{
+    background-image:url("../img/black_linen.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 1s ease-in-out;
+ }
+
+.work-1-img:hover{
+    background-image:url("../img/petstore.png") ;
+    background-color: grey;
+} */
+
+.asdf{
+    height: 250px;
+
+}
+
+.work-1 img{
+    box-shadow: 0 2px 8px 8px rgba(0, 0, 0, 0.15), 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    height: 250px;
+    width: 250px;
+}
+
+
+
+
+.test-color-two{
+    background-color: lightgreen;
+}
+
+.test-color{
+      background-color: lightpink;
+}
+
+  /* contact */
+
+.to-the-back{
+    z-index: -1;
+}
+
+.contact{
+    margin-top: 2em;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.social{
+    height: 50px;
+    width: 100%;
+    padding-top: 1em;
+}
+
+.contact-1 ul li a{
+    color: black
+}
+
+.contact-1 ul li a:hover{
+    color: #7c4fab
+}
+ 
+
+/* test for hidden click */
+
+/* .hiddenclick {
+  font-weight: bold;
+  color: #F00;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hiddenclick a {
+  color: #F00;
+  text-decoration: none;
+}
+
+.hiddenclick a:visited {
+  color: #F00;
+  text-decoration: none;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+  display: block;
+}
+
+.hiddenclickimg {
+  display: none; 
+}*/
+
+/* test works, but actual code used */
+
+/* Media Queries via w3schools */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    .going-down{
+        margin-top: 4em;
+    }
+    .going-down2{
+        margin-top: 2em;
+    }
+    .work{
+        padding-top: 0em;
+    }
+    .work-left{
+        padding-bottom: 0em;
+    }
+    .first-work-row{
+        margin-top: 3em;
+    }
+
+    .first-work{
+        width: 50%;
+        text-align: center;
+        margin-right: 0px;
+        padding-bottom: 2em;
+    }
+    .work-1 img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .sec-work-row{
+        padding-top: 2em;
+    }
+    
+    .work-1, .pull-left-xs{
+        float: left;
+    }
+    
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
