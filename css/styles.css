@@ -277,6 +277,12 @@ nav a{
     }
     .first-work-row{
         margin-top: 3em;
+        width: 460px;
+    }
+
+    .first-work-row img{
+        height: 175px;
+        width: 175px;
     }
 
     .first-work{
@@ -291,8 +297,15 @@ nav a{
     }
 
     .sec-work-row{
-        padding-top: 2em;
+        padding-top: 2em;        
+        width: 460px;
     }
+
+    .sec-work-row img{
+        height: 175px;
+        width: 175px;
+    }
+    
     
     .work-1, .pull-left-xs{
         float: left;
